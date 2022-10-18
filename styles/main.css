@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+}
+
+.grid-wrapper {
+  height: 100vh;
+  display: flex;
+	flex-grow: 1;
+	flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid {
+	background-color: white;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  justify-content: center;
+	align-items: center;
+  height: 600px;
+  width: 600px;
+}
+
+.grid div {
+	display: flex;
+  height: 40px;
+  width: 40px;
+}
+.invader {
+	background-color: orange;
+	border-radius: 20px;
+}
+.player {
+	background-color: red;
+	border-radius: 10;
+}
+.laser {
+	background-color: green;
+}
+.bomb {
+	background-color: blue;
+}
+
