@@ -56,7 +56,10 @@ body {
   cursor: pointer;
 }
 .boom {
-	background-color: red;
+	background-image: url(https://is5-ssl.mzstatic.com/image/thumb/Music60/v4/39/99/9c/39999c6a-3503-d685-d599-583bb6fe6aa0/cover.jpg/400x400cc.jpg);
+	background-repeat: no-repeat;
+  background-size: contain;
+  cursor: pointer;
 }
 .bomb {
 	background-color: blue;
