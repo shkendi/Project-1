@@ -17,6 +17,7 @@ body {
 }
 
 .grid {
+	background-color: black;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
   display: flex;
   flex-wrap: wrap;
@@ -33,34 +34,26 @@ body {
   width: 40px;
 }
 .invader {
-  /* background-image: url('../assets/image\5\.png');
+ 
+	/*background-image: url(https://srv.latostadora.com/designall.dll/alien_space_invaders--i:1413853013881413851;d:301388;w:240;b:000000;m:1.jpg);*/
+	background-image: url(https://cdn.dribbble.com/users/17878/screenshots/668368/attachments/58925/space_real.png?compress=1&resize=400x300&vertical=top);
 	background-repeat: no-repeat;
 	background-size: contain;
 	cursor: pointer;
-	background-image: url('../assets/images.png');
-	background-repeat: no-repeat;
-	background-size: contain;
-	cursor: pointer;
-	background-image: url('../assets/shooter.jpeg');
-	background-repeat: no-repeat;
-	background-size: contain;
-	cursor: pointer; */
-	background-image: url('../assets/images.png');
-	background-image: url('../assets/images.png');
-	background-image: url('../assets/images.png');
-	background-repeat: no-repeat;
-	background-size: contain;
-	cursor: pointer;
-  border-radius: 10px; 
+	
 }
 .player {
-	background-image: url('../assets/images.png');
+	background-image: url(https://img.tapimg.net/market/icons/492a8320316d2765ffe303ac20743778_360.png?imageMogr2/auto-orient/strip);
 	background-repeat: no-repeat;
 	background-size: contain;
 	cursor: pointer;
 }
 .laser {
-	background-color: green;
+	
+  background-image: url(https://wiki.computationalthinkingfoundation.org/wiki/images/d/d0/SpaceInvadersLaserDepiction.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  cursor: pointer;
 }
 .boom {
 	background-color: red;
