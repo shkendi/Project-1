@@ -17,7 +17,6 @@ body {
 }
 
 .grid {
-	/*background-color: black;*/
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
   display: flex;
   flex-wrap: wrap;
@@ -34,8 +33,25 @@ body {
   width: 40px;
 }
 .invader {
-	background-color: orange;
-	border-radius: 20px;
+  /* background-image: url('../assets/image\5\.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	cursor: pointer;
+	background-image: url('../assets/images.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	cursor: pointer;
+	background-image: url('../assets/shooter.jpeg');
+	background-repeat: no-repeat;
+	background-size: contain;
+	cursor: pointer; */
+	background-image: url('../assets/images.png');
+	background-image: url('../assets/images.png');
+	background-image: url('../assets/images.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	cursor: pointer;
+  border-radius: 10px; 
 }
 .player {
 	background-image: url('../assets/images.png');
