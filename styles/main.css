@@ -17,7 +17,7 @@ body {
 }
 
 .grid {
-	background-color: white;
+	background-color: black;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
   display: flex;
   flex-wrap: wrap;
@@ -38,13 +38,21 @@ body {
 	border-radius: 20px;
 }
 .player {
-	background-color: red;
+	background-image: url('../assets/imgur.com/fkBHzHu');
+	background-repeat: no-repeat;
+	background-size: contain;
+	cursor: pointer;
+	background-color: purple;
 	border-radius: 10;
 }
 .laser {
 	background-color: green;
 }
+.boom {
+	background-color: red;
+}
 .bomb {
 	background-color: blue;
 }
+
 
