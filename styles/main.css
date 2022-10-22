@@ -49,7 +49,7 @@ body {
 	cursor: pointer;
 }
 .laser {
-	
+	background-color: black;
   background-image: url(https://wiki.computationalthinkingfoundation.org/wiki/images/d/d0/SpaceInvadersLaserDepiction.png);
   background-repeat: no-repeat;
   background-size: contain;
@@ -63,6 +63,7 @@ body {
 }
 .bomb {
 	background-color: blue;
+  audioelem: url(https://actions.google.com/sounds/v1/impacts/crash.ogg);
 }
 
 
