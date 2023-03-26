@@ -1,4 +1,9 @@
-# Project-1 
+# Project-1
+
+https://docs.google.com/document/d/15hQJtGEwVHyHnfJ4Z_90uQls0CZAX_PTiue1cmZ5ZJQ/edit?usp=sharing
+
+
+
 Space Invaders is my first ever front-end development project, produced as part of General Assembly's Immersive Software Engineering Bootcamp.
 
 My task was to create a grid-based game rendered in the browser that utilised 'vanilla' JavaScript, HTML and CSS.
