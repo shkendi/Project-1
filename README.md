@@ -2,8 +2,10 @@
 
 https://docs.google.com/document/d/15hQJtGEwVHyHnfJ4Z_90uQls0CZAX_PTiue1cmZ5ZJQ/edit?usp=sharing
 
-Project-1
-Space Invaders
+#Project-1
+#Space Invaders
+
+![]
 
 
 shkendi.github.io/Project-1/
@@ -21,13 +23,13 @@ Given a selection of classic arcade games to choose from, I opted to build my ta
 The project was mainly to consolidate my beginner's knowledge of JavaScript and interact with the DOM, but I worked hard to make it a fun experience to play.
 
 
-Timeframe & Working Team:
+###Timeframe & Working Team:
 
 It was an independent project.
 The time to complete it was two weeks.
 
 
-Technologies Used
+###Technologies Used
 
 HTML5
 CSS3
@@ -36,7 +38,7 @@ Git and GitHub
 Google Fonts
 Excalidraw
 
-Brief
+###Brief
 
 
 Render a game in the browser
@@ -50,7 +52,7 @@ Use semantic markup for HTML and CSS (adhere to best practices)
 
 
 
-Necessary Deliverables
+###Necessary Deliverables
 
 A working game, built by you, hosted somewhere on the internet
 A link to your hosted working game in the URL section of your GitHub repo
@@ -58,7 +60,7 @@ A git repository hosted on GitHub, with a link to your hosted game, and frequent
 A readme.md file with explanations of the technologies used, the approach taken, installation instructions, unsolved problems, etc.
 
 
-Planning
+###Planning
 
 
 
@@ -76,7 +78,7 @@ I had 48 hours to plan my project and I used Excalidraw for that. I had to work 
 
 
 
-Getting started
+###Getting started
 
 I started by creating an HTML, CSS and JS file with the main elements such as the start button and the score section. The CSS I used was only the basic one, to make sure I was identifying all the elements on the grid so I could check the progress. The rest of the time spent was mainly working on the app.js file, and I wish I would have spent more time styling my project.
 
@@ -108,7 +110,7 @@ function createGrid() {
 }
 
 
-Build/Code Process
+###Build/Code Process
 
 
 
@@ -182,7 +184,7 @@ Here is how I coded the win and the lose code. I decided that if invaders reach 
 
 
 
-Challenges
+###Challenges
 
 My biggest challenge was getting the aliens to move all in the same direction when trying to move them down each side of the grid. In the beginning, they were moving in a chaotic way when touching the edge. To prevent that, I added some logical operators to the if statement so when leftPosition && !goingRight that made the invaders stop going right when moving down by - 1 and goingRight = true whether on the rightPosition && goingRight and the goingRight = false.
 
@@ -220,22 +222,22 @@ I had to go through what we’d done in our lessons and read the docs for JavaSc
 
 
 
-Wins
+###Wins
 
 Gained experience in programmatic thinking, logical problem solving and different planning stages. I was able to put together some important learning methods in JavaScript such as the setInterval method, FlexBox, and animations in JS.
 
-Key Learnings/Takeaways
+###Key Learnings/Takeaways
 
 This project helped me put my JavaScript learning during the course into practice.
 After finishing this project I was familiar with using JS loops, EventListener and other JS methods such as .create(), .add(), .remove() .splice() and .push(). It took me quite a long time to develop the logic behind the movements of the elements in a grid but I was really happy that during the development of this project, I was able to define them correctly and even enjoyed practising them. I especially enjoyed the animation effects that we could do with JavaScript. This inspired me to plan to build the Pacman game as a side project later. 
 
 
 
-Bugs
+###Bugs
 
 The start button is not functional. 
 
-Future Improvements
+###Future Improvements
 
 Make the invaders throw bombs.
 Make it mobile responsive. 
